@@ -12,7 +12,7 @@ colorama==0.4.6
     # via click
 dominate==2.8.0
     # via flask-bootstrap
-flask==2.3.2
+flask==2.2.5
     # via
     #   -r requirements.in
     #   flask-bootstrap

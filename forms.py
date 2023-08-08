@@ -21,7 +21,7 @@ class CreateUserForm(FlaskForm):
 
 
 class LoginForm(FlaskForm):
-    email = EmailField("Email", validators=[DataRequired()])
+    email = StringField("Email", validators=[DataRequired()])
     password = PasswordField("Password", validators=[DataRequired(), length(min=8)])
     submit = SubmitField("Let me in")
 
